@@ -1,3 +1,7 @@
+#resolve your querry - rodeatharva2@gmail.com
+#version - 5(recursive solution update-09/2026)
+#your contribution will be always helpful
+
 #for trig use
 trig_helper_dict = {"sin" : "cos()", 
                     "cos" : "-sin()", 
@@ -13,7 +17,6 @@ trig_helper_dict = {"sin" : "cos()",
                     "secinv"   : "1/(()sqrt(())*2 - 1))",
                     "cscinv" : "-1/(())sqrt(())*2 - 1))",
                     }
-
 
 def exprecdev(exprinp):
     def uvstacksplit(exprinp):
@@ -135,7 +138,7 @@ def exprecdev(exprinp):
         return f"{trig_helper_dict[input_list[0]].replace('()', f'({x})')}({exprecdev(x)})"
 
 print("Input Must Be In Valid Format - Input Instruction Document(Pending)")
-print("derivative of y will br found strictly w.r.t x")
+print("derivative of y will be found strictly w.r.t x")
 print("Input Example")
 print("10sin(x)")
 print("(cot(x))+(sec(x))")
