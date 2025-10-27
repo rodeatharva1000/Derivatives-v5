@@ -2,6 +2,8 @@
 # version 5 (recursive solution update-09/2026)
 # small-fix - update for removing excessive use of brackets(included)
 
+# "prev version" => https://github.com/rodeatharva1000/First-Year-Codes/blob/main/AdvanceInDerivative%20v4/Derivative%20v4.py
+
 #for trig use
 trig_helper_dict = {
     "sin"   : "cos()", 
